@@ -1,0 +1,38 @@
+.Main {
+  background-color: white;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  color: black;
+}
+
+.Field {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.Content {
+  padding-top: 2em;
+  margin: auto;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Form input {
+  background-color: #e2e2e2;
+  color: black;
+}
+
+.Form input[type="submit"] {
+  background-color: black;
+  color: white;
+}
